@@ -104,7 +104,7 @@ Temperatura(ºF) = 186.5054507665994
 
 Para cada $k = 0, 1, ..., n$ $P_n(x)$, se puede reescribir en una forma llamada diferencias divididas de Newton:
 
-$$P_n(x)=f[x_0] + \sum_{x = 1}^{n} f[x_0, x_1, ..., x_k](x-x_0)(x-x_1)\cdots(x-x_{k-1}) $$
+$$P_n(x)=f[x_0] + \sum_{x = 1}^{n} f[x_0, x_1, ..., x_k](x-x_0)(x-x_1)\cdots(x-x_{k-1})$$
 
 ### Solución implementada en excel
 
