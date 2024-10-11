@@ -35,14 +35,14 @@ yk3 = interpLagrange(X, Y, xk3)
 sys.stdout.write(f'\n==================SOLUCIÓN==================\n')
 
 sys.stdout.write(f'\nPara 5000m:')
-sys.stdout.write(f'\nAltura(m) = {str(xk1)} + {error(X, xk1, yk1)}')
+sys.stdout.write(f'\nAltura(ft) = {str(xk1)} + {error(X, xk1, yk1)}')
 sys.stdout.write(f'\nTemperatura(ºF) = {str(yk1)}\n')
 
 sys.stdout.write(f'\nPara la ciudad de La Paz:')
-sys.stdout.write(f'\nAltura(m) = {str(xk2)}')
+sys.stdout.write(f'\nAltura(ft) = {str(xk2)}')
 sys.stdout.write(f'\nTemperatura(ºF) = {str(yk1)}\n')
 
 sys.stdout.write(f'\nPara la ciudad de El Alto:')
-sys.stdout.write(f'\nAltura(m) = {str(xk2)}')
+sys.stdout.write(f'\nAltura(ft) = {str(xk2)}')
 sys.stdout.write(f'\nTemperatura(ºF) = {str(yk3)}\n')
 
